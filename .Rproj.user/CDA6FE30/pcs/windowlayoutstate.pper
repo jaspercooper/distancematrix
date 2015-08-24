@@ -2,7 +2,7 @@
     "left" : {
         "panelheight" : 1010,
         "splitterpos" : 408,
-        "topwindowstate" : "EXCLUSIVE",
+        "topwindowstate" : "MINIMIZE",
         "windowheight" : 1021
     },
     "right" : {
