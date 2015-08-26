@@ -45,7 +45,7 @@ dist_mat_subset <- function(distance_matrix,set){
 #' @param sum_distances If sum_distances = TRUE, sums instead of averaging.
 #' @export
 calculate_set_distances <- function(distance_matrix,set = NULL,unit_distances = FALSE,sum_distances = FALSE,min_distances = FALSE){
-     if(min_distance&sum_distances&!unit_distances){
+     if(min_distances&sum_distances&!unit_distances){
           warning("Cannot sum minimum distances when unit_distances is FALSE.")
      }
      if(!is.null(set)){
